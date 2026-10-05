@@ -1,0 +1,18 @@
+# Android
+*.iml
+.gradle/
+local.properties
+.idea/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Secretos
+*.keystore
+*.jks
+secrets.properties
