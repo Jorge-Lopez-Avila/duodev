@@ -1,0 +1,71 @@
+# DuoDev
+
+Aplicación Android nativa desarrollada en Kotlin con Jetpack Compose para
+aprender el lenguaje de programación C mediante lecciones cortas y
+ejercicios interactivos, con gamificación para mantener el hábito diario.
+
+## Integrantes
+- Gutiérrez Prats Hervey Gabriel — @usuario1
+- Linares Villegas Gustavo — @usuario2
+- López Avila Jorge — @usuario3
+
+## Problema que resuelve
+Los estudiantes que empiezan a programar en C no tienen una forma corta,
+diaria y móvil de practicar sintaxis y lógica, y terminan memorizando sin
+retroalimentación inmediata.
+
+## Usuario objetivo
+Estudiante de primer semestre de ingeniería o programación, entre 17 y 20
+años, que cursa una materia de fundamentos de programación en C. Usa la
+app en el transporte público, en ratos libres en el campus o en su casa,
+en sesiones de 5 a 15 minutos, generalmente sin internet confiable.
+
+## Solución
+App Android que enseña C con lecciones cortas. Cada lección incluye teoría
+breve y ejercicios interactivos de siete tipos: opción múltiple, completar
+hueco, ordenar líneas, predecir salida, verdadero/falso, emparejar y
+seleccionar el error. Para mantener el hábito se usa gamificación: XP,
+niveles, racha diaria, logros, reto diario y un widget con la racha y el
+reto del día. Funciona 100% offline.
+
+## Alcance de la primera versión
+- Onboarding con meta diaria.
+- Mapa de 3 unidades y ~20 lecciones.
+- Siete tipos de ejercicios interactivos.
+- Sistema de XP, niveles, racha y logros.
+- Reto diario.
+- Widget con racha y reto del día.
+- Recordatorio diario.
+- Funcionamiento 100% offline con Room + DataStore.
+
+## Funciones aplazadas de forma deliberada
+- Ejecución o compilación real de código C.
+- Editor de código libre.
+- Backend, login social, ranking online y pagos.
+- Soporte para varios lenguajes de programación.
+- Generación de contenido con IA.
+- Tests automáticos avanzados.
+
+## Documentación
+- [Ficha de idea](docs/idea.md)
+
+## Entrega 1 — Parte 1
+- `docs/idea.md` con la ficha completa de la idea.
+- `docs/img/bosquejos/` con los bosquejos de las pantallas principales.
+- `docs/img/recorrido.png` con el diagrama de recorrido del usuario.
+- Historia de usuario y criterio de aceptación incluidos en `docs/idea.md`.
+
+## Tecnologías previstas
+- Kotlin nativo para Android.
+- Jetpack Compose + Material 3.
+- Navigation Compose.
+- Room + DataStore.
+- WorkManager.
+- Glance (widget).
+- MVVM + Coroutines + Flow.
+
+## Uso de asistentes de IA
+Se utilizó ChatGPT para redactar borradores del `docs/idea.md` y para
+generar los bosquejos de pantallas. Los textos finales y las anotaciones
+de los bosquejos fueron revisados y ajustados por los integrantes del
+equipo.
